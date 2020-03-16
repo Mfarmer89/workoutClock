@@ -1,0 +1,60 @@
+body {
+  background: rgb(235, 247, 250);
+  padding: 0 20%;
+}
+
+#clock {
+  background: white;
+  border: solid black 10px;
+  font-size: 300px;
+  font-style: bold;
+  height: 400px;
+  padding: 5% 0 0 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#settings {
+  background: white;
+  border: solid black 10px;
+  font-size: 30px;
+  /* font-style: bold; */
+  height: 40px;
+  padding: 5% 0 0 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#clock.work {
+  background: green;
+}
+
+#clock.rest {
+  background: red;
+}
+
+#clock.off {
+  background: blue;
+}
+
+form {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 50px;;
+}
+
+input {
+  border-bottom: solid black 2px;
+  font-size: 28px;
+  line-height: 30px;
+  margin: 0 30px 0 5px;
+  width: 60px;
+}
+
+button {
+  background: rgb(218, 218, 218);
+  width: 120px;
+} 
